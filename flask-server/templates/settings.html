@@ -1,0 +1,27 @@
+{% block content %}
+    <div>
+        <form method="POST" action="">
+            {{form.hidden_tag()}}
+            <fieldset>
+                <legend>Type Text</legend>
+                <div> 
+                    {{form.textinput.label()}}
+
+                    {% if form.textinput.errors%}
+                         {{form.textinput(class="form-control form-control-lg is invalid")}}
+                        <div class="invalid-feedback"> 
+                            {% for errors in form.textinput.eroors %}
+                                <span>{{error}}</span>
+                            {% endfor %}
+                        </div>   
+                     {% else %}  
+                         {{form.textinput()}}  
+                     {% endif %}
+                </div>
+            </fieldset>
+            <div >
+                {{ form.submit() }}
+            </div>
+        </form>
+    </div>
+{% endblock %}

@@ -1,0 +1,99 @@
+:root {
+  --bg: rgba(151, 146, 146, 0.2);
+  --bg-accent: #484a4d;
+  --text-color: black;
+  --speed: -2s;
+
+  --margin: 2%;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+.navbarSettings {
+  padding: 0rem;
+}
+.navbarslider {
+  padding-top: 0.3%;
+
+  padding-left: 2%;
+  position: sticky;
+  z-index: 999999999;
+  top: 0px;
+  width: 98%;
+  left: 0px;
+  margin-bottom: -8px;
+  overflow: hidden;
+  transition: height var(--speed) ease;
+  background-color: #f5f4f4;
+  font-size: 2.5em;
+  color: white;
+}
+/* Dropdown Menu */
+
+.dropdownMenu {
+  margin-left: -2%;
+}
+.NavbarMenu {
+  width: 100%;
+}
+
+.NavbarMenu-item {
+  right: 20px;
+  width: 20%;
+  margin-left: 78%;
+  height: 62px;
+  display: flex;
+  align-items: center;
+}
+.NavbarMenu-item p {
+  color: lightgray;
+  margin-left: auto;
+  margin-right: var(--margin);
+  text-align: center;
+}
+.Navbarmenu-item .icon-button:hover {
+  filter: none;
+}
+
+/* CSSTransition classes  */
+.NavbarMenu-primary-enter {
+  position: absolute;
+  transform: translateX(-100%);
+}
+.NavbarMenu-primary-enter-active {
+  transform: translateX(0%);
+  transition: all var(--speed) ease;
+}
+.NavbarMenu-primary-exit {
+  position: absolute;
+}
+.NavbarMenu-primary-exit-active {
+  transform: translateX(-100%);
+  transition: all var(--speed) ease;
+}
+
+.NavbarMenu-secondary-enter {
+  transform: translateX(100%);
+}
+.NavbarMenu-secondary-enter-active {
+  transform: translateX(0%);
+  transition: all var(--speed) ease;
+}
+.NavbarMenu-secondary-exit {
+}
+.NavbarMenu-secondary-exit-active {
+  transform: translateX(100%);
+  transition: all var(--speed) ease;
+}
+.NavbarInterface {
+  width: 100%;
+  height: 0px;
+  margin-left: 0px;
+}

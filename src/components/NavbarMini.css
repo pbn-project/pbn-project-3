@@ -1,0 +1,46 @@
+:root {
+  --font-size: 20px;
+}
+.navbar {
+  width: 100%;
+
+  background-color: blueviolet;
+}
+.navbar:hover {
+  transition: all 1s ease-in-out;
+  background-color: #d0ff00;
+  backdrop-filter: blur(10px);
+}
+.navbar:hover .nav-links {
+  color: black;
+}
+
+.navbar-container {
+  height: 62px;
+  width: 47.5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: var(--font-size);
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  padding-left: 50%;
+}
+
+.nav-links {
+  color: lightgrey;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding-right: 00px;
+}
+
+.navbar:hover .nav-links:hover {
+  color: #ff6700;
+  border-bottom: 1px solid #ff6700;
+  transition: all 1.2s ease-out;
+}
+
+@media screen and (max-width: 960px) {
+}

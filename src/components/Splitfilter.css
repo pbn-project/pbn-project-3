@@ -1,0 +1,20 @@
+.split-box {
+  margin-top: 200px;
+}
+.splitfilter img {
+  width: 70%;
+  padding-left: 15%;
+}
+.loadig-video {
+  z-index: -100000;
+  width: 50%;
+  margin-left: 25%;
+  position: absolute;
+  padding-top: 100px;
+}
+@media screen and (max-width: 1080px) {
+  .splitfilter img {
+    width: 100%;
+    padding-left: 0%;
+  }
+}

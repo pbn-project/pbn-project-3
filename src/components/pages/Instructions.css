@@ -1,0 +1,63 @@
+.instruction-box {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 0px 5px;
+  margin-top: 20px;
+}
+
+.instruction-box img {
+  margin: 0px;
+  width: 100%;
+}
+.instruction-txt {
+  width: 80%;
+}
+.instruction-box .filter-div .locked:hover {
+  opacity: 0.9;
+}
+.instruction-box .filter-div .locked p {
+  width: 90%;
+  margin-left: 5%;
+  font-size: 40px;
+  margin-top: 30%;
+}
+.instruction-txt {
+  display: none;
+}
+@media screen and (max-width: 1080px) {
+  .library-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0px 5px;
+  }
+  .instruction-txt {
+    display: block;
+    font-size: 20px;
+    width: 96%;
+    margin-left: 2%;
+  }
+  .instruction-box .filter-div .locked:hover {
+    opacity: 0;
+  }
+  .instruction-box .filter-div .locked {
+    opacity: 0;
+  }
+}
+@media screen and (max-width: 800px) {
+  .instruction-box {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .instruction-txt {
+    display: block;
+    font-size: 20px;
+    width: 96%;
+    margin-left: 2%;
+  }
+  .instruction-box .filter-div .locked:hover {
+    opacity: 0;
+  }
+  .instruction-box .filter-div .locked {
+    opacity: 0;
+  }
+}

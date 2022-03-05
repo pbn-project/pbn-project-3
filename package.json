@@ -1,17 +1,37 @@
 {
+  "homepage":"http://pbn-project.github.io/pbn-project",
+
   "name": "bachelor-project",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:5000",
   "dependencies": {
+    "@emailjs/browser": "^3.4.0",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "axios": "^0.25.0",
+    "emailjs-com": "^3.2.0",
+    "file-saver": "^2.0.5",
     "react": "^17.0.2",
+    "react-color": "^2.19.3",
     "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1",
+    "react-native": "^0.67.3",
+    "react-native-mail": "^6.1.1",
+    "react-onclickoutside": "^6.12.1",
+    "react-parallax": "^3.3.0",
+    "react-router-dom": "^6.0.2",
     "react-scripts": "4.0.3",
+    "react-scroll-parallax": "^3.0.3",
+    "react-transition-group": "^4.4.2",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.1.1",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -34,5 +54,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
 }

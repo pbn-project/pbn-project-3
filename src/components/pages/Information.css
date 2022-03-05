@@ -1,0 +1,35 @@
+.Information-Container {
+  margin: 2%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px 5px;
+  width: 100%;
+}
+.text-info {
+  width: 90%;
+}
+.text-info p {
+  font-size: 40px;
+}
+.text-info p a {
+  color: blueviolet;
+  bottom: 0.5px;
+
+  border-width: 0 0 2px;
+  border-style: solid;
+}
+.text-info p a:hover {
+  transition: 1s;
+  color: #ff6700;
+}
+.info-img img {
+  width: 100%;
+}
+@media screen and (max-width: 1380px) {
+  .Information-Container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .text-info {
+    width: 96%;
+  }
+}

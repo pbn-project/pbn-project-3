@@ -1,0 +1,32 @@
+.Logo {
+  position: fixed;
+  z-index: 999;
+  padding-left: 2%;
+  color: lightgray;
+  padding-top: 8px;
+}
+.Logo-Link {
+  color: black;
+  animation: color-change 0s infinite;
+}
+.Logo-Link:hover {
+  animation: color-change 10s infinite;
+}
+
+@keyframes color-change {
+  0% {
+    color: lightgray;
+  }
+  25% {
+    color: blueviolet;
+  }
+  50% {
+    color: #d0ff00;
+  }
+  75% {
+    color: #ff6700;
+  }
+  100% {
+    color: lightgray;
+  }
+}

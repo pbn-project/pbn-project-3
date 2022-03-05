@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="POST" action="test_2">
+        <label for="nickname">name</label>
+        <input name="nickname">
+        <button type="submit">send request</button>
+    </form>
+    {% if message and image_string%}
+    <div>
+        message:{{message}}
+    </div>
+    <div>
+        image_string:{{image_string}}
+    </div>
+    <img src="data:image/png;base64,{{image_string}}" alt="Red dot" />
+    {% endif %}
+</body>
+</html>
