@@ -5,7 +5,6 @@ import "./NavbarMini.css";
 
 function NavbarMini() {
   const [setClick] = useState(false);
-  const [setButton] = useState(true);
 
   const closeMobileMenu = () => setClick(false);
 

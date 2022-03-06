@@ -4,12 +4,13 @@
 .splitfilter img {
   width: 70%;
   padding-left: 15%;
+  opacity: 1;
 }
-.loadig-video {
-  z-index: -100000;
+.loading-video {
   width: 50%;
   margin-left: 25%;
   position: absolute;
+  z-index: -999999999;
   padding-top: 100px;
 }
 @media screen and (max-width: 1080px) {

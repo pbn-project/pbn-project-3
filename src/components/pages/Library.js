@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "../../App.css";
 import "./Library.css";
 import { Link } from "react-router-dom";
@@ -9,7 +9,7 @@ function Library() {
       <div className="library-container1">
         <div className="filter-div">
           <Link to="/project">
-            <img src="images/hey.gif"></img>
+            <img alt="hey" src="images/hey.gif"></img>
           </Link>
         </div>
 
@@ -18,7 +18,7 @@ function Library() {
             <p>This filter is locked.</p>
           </div>
 
-          <img src="images/02-FILTER.png"></img>
+          <img alt="locked filter" src="images/02-FILTER.png"></img>
         </div>
 
         <div className="filter-div">
@@ -26,7 +26,7 @@ function Library() {
             <p>This filter is locked.</p>
           </div>
 
-          <img src="images/02-FILTER.png"></img>
+          <img alt="locked filter" src="images/02-FILTER.png"></img>
         </div>
 
         <div className="filter-div">
@@ -34,7 +34,7 @@ function Library() {
             <p>This filter is locked.</p>
           </div>
 
-          <img src="images/02-FILTER.png"></img>
+          <img alt="locked filter" src="images/02-FILTER.png"></img>
         </div>
 
         <div className="filter-div">
@@ -42,7 +42,7 @@ function Library() {
             <p>This filter is locked.</p>
           </div>
 
-          <img src="images/02-FILTER.png"></img>
+          <img alt="locked filter" src="images/02-FILTER.png"></img>
         </div>
 
         <div className="filter-div">
@@ -50,7 +50,7 @@ function Library() {
             <p>This filter is locked.</p>
           </div>
 
-          <img src="images/02-FILTER.png"></img>
+          <img alt="locked filter" src="images/02-FILTER.png"></img>
         </div>
       </div>
     </>

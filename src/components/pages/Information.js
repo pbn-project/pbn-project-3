@@ -6,7 +6,7 @@ export default function Information() {
   return (
     <div className="Information-Container">
       <div className="info-img">
-        <img src="images/coco.png" />
+        <img alt="paint by numbers" src="images/coco.png" />
       </div>
       <div className="text-info">
         <p>

@@ -17,10 +17,10 @@ function Splitfilter() {
   return (
     <>
       <div className="split-box">
-        <div className="loadig-video">
+        <div className="loading-video">
           <VideoPreview src="videos/01-Loading.mp4" path="/project" />
         </div>
-        <div className="splitfilter">
+        <div className="splitfilter1">
           {typeof block.image_string === "undefined" ? (
             <p>Loading...</p>
           ) : (

@@ -15,7 +15,7 @@ export default function Instruction() {
               the end you get a smooth animation. We promise it's really easy!
             </p>
           </div>
-          <img src="images/hey.gif"></img>
+          <img alt="hey" src="images/hey.gif"></img>
         </div>
         <div className="instruction-txt">
           <p>
@@ -37,7 +37,7 @@ export default function Instruction() {
               finished click the SENT button and wait!
             </p>
           </div>
-          <img src="images/form.png"></img>
+          <img alt="form" src="images/form.png"></img>
         </div>
 
         <div className="instruction-txt">
@@ -58,7 +58,7 @@ export default function Instruction() {
               on the bottom of the site. Have fun creating your own content!
             </p>
           </div>
-          <img src="images/heycutie.gif"></img>
+          <img alt="hey cutie" src="images/heycutie.gif"></img>
         </div>
         <div className="instruction-txt">
           <p>

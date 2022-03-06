@@ -31,7 +31,6 @@ const Form = (props) => {
   const [visible, setVisible] = React.useState(false);
 
   const [title, setTitle] = useState("");
-  const [body, setBody] = useState("");
   const [frames, setFrames] = useState("");
   const [formatX, setFormatX] = useState("");
   const [formatY, setFormatY] = useState("");
@@ -80,7 +79,6 @@ const Form = (props) => {
 
         <form
           onSubmit={handleSubmit}
-          className="form-box"
           className={`form-box ${navbarOpen ? " showMenu" : ""}`}
         >
           <label htmlFor="title" className="form-label">
@@ -291,7 +289,6 @@ const Form = (props) => {
               closeMenu();
               setVisible(true);
             }}
-            exact
           >
             Sent Data
           </button>

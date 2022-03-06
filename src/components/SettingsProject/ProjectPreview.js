@@ -1,4 +1,3 @@
-import { useState, useEffect } from "react";
 import "./ProjectPreview.css";
 import Form from "../Form.js";
 
