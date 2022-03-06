@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/pbn-project3/static/css/main.c2c4a7f9.chunk.css",
+    "main.js": "/pbn-project3/static/js/main.43cc14ed.chunk.js",
+    "main.js.map": "/pbn-project3/static/js/main.43cc14ed.chunk.js.map",
+    "runtime-main.js": "/pbn-project3/static/js/runtime-main.5df5bb72.js",
+    "runtime-main.js.map": "/pbn-project3/static/js/runtime-main.5df5bb72.js.map",
+    "static/js/2.a3db1976.chunk.js": "/pbn-project3/static/js/2.a3db1976.chunk.js",
+    "static/js/2.a3db1976.chunk.js.map": "/pbn-project3/static/js/2.a3db1976.chunk.js.map",
+    "index.html": "/pbn-project3/index.html",
+    "static/css/main.c2c4a7f9.chunk.css.map": "/pbn-project3/static/css/main.c2c4a7f9.chunk.css.map",
+    "static/js/2.a3db1976.chunk.js.LICENSE.txt": "/pbn-project3/static/js/2.a3db1976.chunk.js.LICENSE.txt",
+    "static/media/NimbusSanMonM-Reg.a54b263d.otf": "/pbn-project3/static/media/NimbusSanMonM-Reg.a54b263d.otf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5df5bb72.js",
+    "static/js/2.a3db1976.chunk.js",
+    "static/css/main.c2c4a7f9.chunk.css",
+    "static/js/main.43cc14ed.chunk.js"
+  ]
+}
